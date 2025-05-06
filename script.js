@@ -92,7 +92,7 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
     valentineQuestion.innerHTML = `
       <img src="./images/image7.gif" alt="Celebration duckie" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
       Congratulations!!<br>
-      <span style="font-size: 20px; color: #bd1e59;">You have scored a baddie for Valentine's Day! <3</span>
+      <span style="font-size: 20px; color: #bd1e59;"> Congrats! You have scored a Prisha for next Valentine's Day! Now I'm gonna hunt you down next February 14 and make sure you spend it with me <3 I love you Mohamed</span>
     `;
     valentineQuestion.style.textAlign = "center"; 
   
