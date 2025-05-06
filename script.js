@@ -54,7 +54,7 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
       yesButton.style.fontSize = `${fontSize}px`;
   
       //no button text
-      const messages = ["No","Are you sure?","Babyy please?","Don't do this to me :(","Say yes or else...",];
+      const messages = ["No","Are you sure?","Momo please?","Aww pretty pleaseee? Mohamed you're only allowed to be my Valentine :>","Say yes or else...I have boots..",];
   
       if (noClickCount === 4) {
         const newButton = document.createElement("button");
@@ -106,7 +106,6 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
     bounceImage.style.borderRadius = "50%";
     document.body.appendChild(bounceImage);
   
-    startBouncing(bounceImage);
   
     confetti({
       particleCount: 150,
